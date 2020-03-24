@@ -1,0 +1,257 @@
+
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.container-what{
+    /* padding: 1rem 1rem; */
+    background: #ebd870;
+    color: #fff;
+    /* margin: 1rem; */
+    padding: 3rem;
+    height: 900px;    
+}
+
+.container-difference{
+    background: #e5f3dc;
+    color: #fff;
+    height: 700px;
+    padding: 0 7rem;
+}
+
+.center-alignment{
+    text-align: center;
+}
+
+.text-primary{
+    color: #93cb52;
+}
+
+.py-1 {padding: 1rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+
+.p-1{ padding: 0.5rem;}
+.p-2{ padding: 1rem;}
+.p-3{ padding: 1.5rem;}
+
+.bg-light{
+    background: #aec5c7;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.m-heading{
+    font-size: 2rem;
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    /* padding: 0.5rem; */
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #7ab436;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #507e54;
+}
+.btn-1{
+    display: inline-block;
+    color: #7ab436;
+    background: #e5f3dc;
+    /* padding: 0.5rem 2rem; */
+    border: solid #93cb52 3px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+.btn-1:hover{
+    background: #ebd870;
+}
+
+
+/* Navbar */
+#navbar{
+    display: flex;
+    background: #444;
+    color: #fff;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0.5rem;
+}
+
+#navbar .logo img{
+    display: inline;
+    height: 50px;
+    max-height: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+#navbar ul li a {
+    color: #fff;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+#navbar ul li a:hover{
+    background: #07af15;
+    border-radius: 10px;
+}
+
+/* Showcase */
+#showcase{
+    background: #3c2f2f url('../img/showcase6.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* overlay */
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 75px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Difference */
+#difference h2{
+    text-align: center;
+    color: #93cb52;
+    padding: 2rem;
+}
+
+ #difference .contents{
+     display: flex;
+     z-index: -2;
+ }
+
+#difference #content-1{
+    text-align: center;
+    background: #aec5c7;
+    color: #333;
+    border-radius: 15px;
+    border: 1rem;
+    padding: 2rem 0;
+    margin: 0 2rem;
+    height: 580px;
+    width: 300px;
+}
+
+#difference #content-1 img{
+    /* border-radius: 50%; */
+    width: 200px;
+    margin: 0 10px;
+    padding: 2rem 0rem;
+}
+
+#difference #content-1 h3,
+#difference #content-1 p, 
+#difference #content-1 a {
+    padding: 1rem;
+}
+
+
+/* What */
+#what h2{
+    text-align: center;
+    color: #07af15;
+    margin-bottom: 0.75rem;
+    padding-top: 1.3rem;
+}
+
+#what .items,
+#what .items-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#what .items .item{
+    flex: 2;
+}
+
+#what p{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+#what .item-1 img,
+#what .item-2 img{
+    border-radius: 50%;
+    width: 250px;
+    padding: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+/* Section-Who We Are */
+#who .who-content {
+    display: flex;
+}
+
+#who div{
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../img/IMG-20200117-WA0007.jpg') no-repeat center center/cover;
+}
+
+#who h2{
+    text-align: center;
+}
