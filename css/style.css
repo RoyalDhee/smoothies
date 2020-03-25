@@ -51,6 +51,14 @@ p{
     color: #93cb52;
 }
 
+.text-red{
+    color: #f73606;
+}
+
+.text-yellow{
+    color: #f3d949;
+}
+
 .py-1 {padding: 1rem 0;}
 .py-2 {padding: 2rem 0;}
 .py-3 {padding: 3rem 0;}
