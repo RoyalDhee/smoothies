@@ -29,7 +29,7 @@ p{
 
 .container-what{
     /* padding: 1rem 1rem; */
-    background: #ebd870;
+    background: #93cb52;
     color: #fff;
     /* margin: 1rem; */
     padding: 3rem;
@@ -74,6 +74,11 @@ p{
 
 .bg-dark{
     background: #333;
+    color: #fff;
+}
+
+.bg-primary{
+    background: #93cb52;
     color: #fff;
 }
 
@@ -263,3 +268,27 @@ p{
 #who h2{
     text-align: center;
 }
+
+/* Section : Contact */
+#contact{
+    display: flex;
+}
+
+#contact .map, #contact .contact-form{
+    flex: 1;
+}
+
+#contact .contact-form .form-group{
+    margin: 0.75rem;
+}
+
+#contact .contact-form label{
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
